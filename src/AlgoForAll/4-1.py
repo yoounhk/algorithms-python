@@ -1,0 +1,8 @@
+# 재귀로 1부터 n까지의 합 구하기
+def f(n):
+    if n == 1:
+        return 1
+    return n + f(n - 1)
+
+
+print(f(10))
